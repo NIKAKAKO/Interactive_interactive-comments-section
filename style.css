@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&family=Rubik:wght@400;500&display=swap');
+
+body {
+display:flex;
+justify-content:center;
+flex-flow:column;
+align-items:center;
+background:hsl(0, 0%, 95%);
+font-weight:400;
+font-family: 'Rubik', sans-serif;
+font-size:16px;
+}
+
+.comment {
+margin-top:20px;
+width:730px;
+background:#ffffff;
+border-radius:8px;
+display:flex;
+justify-content:flex-start;
+}
+.replyb {
+text-decoration: none;
+border:0px;
+width:70px;
+background:#ffffff;
+
+}
+
+#plus {
+
+    text-decoration: none;
+}
+#minus {
+
+    text-decoration: none;
+}
+
+.points {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow:column;
+    margin:20px;
+    width:40px;
+    height:100px;
+    background:#F5F6FA;
+    border-radius:10px;
+    font-size:16px;
+    color:#5357B6;
+    font-weight:500;
+    line-height:18.9px;
+
+
+}
+
+.commentsection {
+    width:618px;
+    margin:24px;
+    display:grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows:auto auto;
+
+}
+
+.topleft {
+grid-area:1/1/2/2;
+}
+
+
+
+.content {
+grid-column:1/ span2;
+grid-row: row 2;
+
+}
+.thumb {
+    background: url("images/avatars/image-amyrobson.png");
+    background-size: contain;
+    width:32px;
+    height:32px;
+
+}
+.topleft {
+    display:flex;
+    flex-flow:row;
+    justify-content:flex-start;
+    gap: 20px;
+    align-items:center;
+
+}
+
+.name {
+font-weight:500;
+font-size:16px;
+
+}
+
+.date {
+    line-height:24px;
+    font-size:16px;
+    color:#67727E;
+}
+
+.content {
+    margin-top:22px;
+    color:#67727E;
+
+}
+#addcomment {
+    margin-top:20px;
+height:144px;
+width:730px;
+background:#ffffff;
+border-radius:8px;
+display:flex;
+justify-content:flex-start;
+
+}
+.sendButton {
+margin-top:24px;
+margin-left:18px;
+
+}
+
+.send {
+    height:48px;
+    width:104px;
+    background-color: #5357B6;
+    color:#ffffff;
+    border-radius: 8px;    ;
+
+}
+
+.inputcomment {
+
+height:96px;
+width:506px;
+border:1px solid black;
+margin-top:24px;
+resize: none;
+}
+
+.thumbimg {
+margin:28px 24px 28px 24px;
+
+}
